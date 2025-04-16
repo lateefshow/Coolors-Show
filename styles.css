@@ -12,6 +12,11 @@ body {
   color: black;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .top{
                 height: 60px;
                 margin: 0 auto;
@@ -200,6 +205,12 @@ body {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+.app-card:hover {
+    background-color: pink;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
 .app-card img {
   width: 50px;
   margin-bottom: 1rem;
@@ -221,6 +232,12 @@ body {
 .logo-grid img {
   width: 60px;
 }
+
+.logo-grid img:hover {
+    transform: scale(1.7);
+    transition: 0.3s;
+}
+
 
 .footer {
   background: #ccc;
